@@ -1,0 +1,51 @@
+{
+"@context": [
+{
+"@protected": true,
+"@version": 1.1,
+"id": "@id",
+"type": "@type",
+"DoctorCredTest": {
+"@context": {
+"@propagate": true,
+"@protected": true,
+"iden3-vocab": "urn:uuid:c442ec5e-8427-4f3f-ba55-41dbd7be59a1#",
+"xsd": "http://www.w3.org/2001/XMLSchema#",
+"nombre": {
+"@id": "iden3-vocab:nombre",
+"@type": "xsd:string"
+},
+"apellidos": {
+"@id": "iden3-vocab:apellidos",
+"@type": "xsd:string"
+},
+"matricula": {
+"@id": "iden3-vocab:matricula",
+"@type": "xsd:string"
+},
+"dni": {
+"@id": "iden3-vocab:dni",
+"@type": "xsd:double"
+},
+"fechaEmision": {
+"@id": "iden3-vocab:fechaEmision",
+"@type": "xsd:dateTime"
+},
+"titulo": {
+"@id": "iden3-vocab:titulo",
+"@type": "xsd:string"
+},
+"especialidadPrincipal": {
+"@id": "iden3-vocab:especialidadPrincipal",
+"@type": "xsd:string"
+},
+"jurisdiccion": {
+"@id": "iden3-vocab:jurisdiccion",
+"@type": "xsd:string"
+}
+},
+"@id": "urn:uuid:8f42b0f9-b712-401a-9805-fc06d3f4d571"
+}
+}
+]
+}
