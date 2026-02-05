@@ -1,6 +1,6 @@
 {
     "$metadata": {
-        "type": "DoctorCredTest",
+        "type": "ClinicalSummary",
         "uris": {
             "jsonLdContext": "https://raw.githubusercontent.com/lucas-marc/sandbox/refs/heads/main/schemas_ssi/seldisc.v1.ld.json"
         },
