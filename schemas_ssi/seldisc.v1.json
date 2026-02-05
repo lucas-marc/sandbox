@@ -1,42 +1,52 @@
 {
-  "credentialSubject": {
-    "description": "Stores the data of the credential",
-    "title": "Credential subject",
-    "properties": {
-      "id": {
-        "description": "Stores the DID of the subject that owns the credential",
-        "title": "Credential subject ID",
-        "format": "uri",
-        "type": "string"
-      },
-      "resumen": {
-        "description": "test resumen text",
-        "title": "Resumen",
-        "type": "string"
-      },
-      "historial": {
-        "description": "Test object",
-        "title": "Historia",
-        "properties": {
-          "my-attribute-1": {
-            "description": "campo 1",
-            "title": "historia-1",
-            "type": "object"
-          }
+    "$metadata": {
+        "type": "DoctorCredTest",
+        "uris": {
+            "jsonLdContext": "https://raw.githubusercontent.com/lucas-marc/sandbox/refs/heads/main/schemas_ssi/seldisc.v1.ld.json"
         },
-        "required": [],
-        "type": "object"
-      },
-      "nombre": {
-        "description": "nombre",
-        "title": "nombre",
-        "type": "string"
-      }
+        "version": "1.0"
     },
-    "required": [
-      "resumen",
-      "historial"
-    ],
-    "type": "object"
-  }
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Esquema prueba resumen historia",
+    "title": "Historia clínica Médica",
+    "credentialSubject": {
+        "description": "Stores the data of the credential",
+        "title": "Credential subject",
+        "properties": {
+            "id": {
+                "description": "Stores the DID of the subject that owns the credential",
+                "title": "Credential subject ID",
+                "format": "uri",
+                "type": "string"
+            },
+            "resumen": {
+                "description": "test resumen text",
+                "title": "Resumen",
+                "type": "string"
+            },
+            "historial": {
+                "description": "Test object",
+                "title": "Historia",
+                "properties": {
+                    "my-attribute-1": {
+                        "description": "campo 1",
+                        "title": "historia-1",
+                        "type": "object"
+                    }
+                },
+                "required": [],
+                "type": "object"
+            },
+            "nombre": {
+                "description": "nombre",
+                "title": "nombre",
+                "type": "string"
+            }
+        },
+        "required": [
+            "resumen",
+            "historial"
+        ],
+        "type": "object"
+    }
 }
