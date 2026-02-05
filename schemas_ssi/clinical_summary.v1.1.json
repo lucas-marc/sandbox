@@ -2,7 +2,7 @@
     "$metadata": {
         "type": "ClinicalSummary",
         "uris": {
-            "jsonLdContext": "https://raw.githubusercontent.com/lucas-marc/sandbox/refs/heads/main/schemas_ssi/seldisc.v1.ld.json"
+            "jsonLdContext": "https://raw.githubusercontent.com/lucas-marc/sandbox/refs/heads/main/schemas_ssi/clinical_summary.v1.ld.json"
         },
         "version": "1.1"
     },
