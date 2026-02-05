@@ -1,0 +1,35 @@
+{
+  "@context": [
+    {
+      "@protected": true,
+      "@version": 1.1,
+      "id": "@id",
+      "type": "@type",
+      "SelDisc": {
+        "@context": {
+          "@propagate": true,
+          "@protected": true,
+          "iden3-vocab": "urn:uuid:4af8e5d6-f329-4f4a-a589-2efbf1dcbfb7#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "resumen": {
+            "@id": "iden3-vocab:resumen",
+            "@type": "xsd:string"
+          },
+          "historial": {
+            "@context": {
+              "my-attribute-1": {
+                "@id": "iden3-vocab:historial.my-attribute-1"
+              }
+            },
+            "@id": "iden3-vocab:historial"
+          },
+          "nombre": {
+            "@id": "iden3-vocab:nombre",
+            "@type": "xsd:string"
+          }
+        },
+        "@id": "urn:uuid:653c3c24-bd37-4830-ab88-d73dc3eaa4d6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "credentialSubject": {
+    "description": "Stores the data of the credential",
+    "title": "Credential subject",
+    "properties": {
+      "id": {
+        "description": "Stores the DID of the subject that owns the credential",
+        "title": "Credential subject ID",
+        "format": "uri",
+        "type": "string"
+      },
+      "resumen": {
+        "description": "test resumen text",
+        "title": "Resumen",
+        "type": "string"
+      },
+      "historial": {
+        "description": "Test object",
+        "title": "Historia",
+        "properties": {
+          "my-attribute-1": {
+            "description": "campo 1",
+            "title": "historia-1",
+            "type": "object"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "nombre": {
+        "description": "nombre",
+        "title": "nombre",
+        "type": "string"
+      }
+    },
+    "required": [
+      "resumen",
+      "historial"
+    ],
+    "type": "object"
+  }
+}
