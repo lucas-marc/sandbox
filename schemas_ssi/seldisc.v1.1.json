@@ -4,7 +4,7 @@
         "uris": {
             "jsonLdContext": "https://raw.githubusercontent.com/lucas-marc/sandbox/refs/heads/main/schemas_ssi/seldisc.v1.ld.json"
         },
-        "version": "1.0"
+        "version": "1.1"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "description": "Esquema prueba resumen historia",
