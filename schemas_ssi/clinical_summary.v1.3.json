@@ -1,0 +1,58 @@
+{
+  "$metadata": {
+    "type": "ClinicalSummary",
+    "uris": {
+      "jsonLdContext": "https://raw.githubusercontent.com/lucas-marc/sandbox/refs/heads/main/schemas_ssi/clinical_summary.v1.ld.json"
+    },
+    "version": "1.3"
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Esquema prueba resumen historia",
+  "title": "Historia clínica Médica",
+  "type": "object",
+  "properties": {
+    "credentialSubject": {
+      "description": "Stores the data of the credential",
+      "title": "Credential subject",
+      "type": "object",
+      "properties": {
+        "id": {
+          "description": "Stores the DID of the subject that owns the credential",
+          "title": "Credential subject ID",
+          "format": "uri",
+          "type": "string"
+        },
+        "resumen": {
+          "description": "test resumen text",
+          "title": "Resumen",
+          "type": "string"
+        },
+        "historial": {
+          "description": "Test object",
+          "title": "Historia",
+          "type": "object",
+          "properties": {
+            "my-attribute-1": {
+              "description": "campo 1",
+              "title": "historia-1",
+              "type": "object"
+            }
+          },
+          "required": []
+        },
+        "nombre": {
+          "description": "nombre",
+          "title": "nombre",
+          "type": "string"
+        }
+      },
+      "required": [
+        "resumen",
+        "historial"
+      ]
+    }
+  },
+  "required": [
+    "credentialSubject"
+  ]
+}
