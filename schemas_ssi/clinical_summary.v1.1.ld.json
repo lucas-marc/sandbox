@@ -18,7 +18,8 @@
           "historial": {
             "@context": {
               "my-attribute-1": {
-                "@id": "iden3-vocab:historial.my-attribute-1"
+                "@id": "iden3-vocab:historial.my-attribute-1",
+                "@type": "xsd:string"
               }
             },
             "@id": "iden3-vocab:historial"
